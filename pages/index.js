@@ -1,6 +1,6 @@
 import Link from 'next/link';
 // import Image from 'next/image';
-import { Flex, Box, Text, Button, Image, Spacer, Container, useBreakpointValue, Show, Hide } from '@chakra-ui/react';
+import { Flex, Box, Text, Button, Image, Spacer} from '@chakra-ui/react';
 import Property from "../components/Property"; 
 import {baseUrl, fetchApi} from '../utils/fetchApi'
 import Header from "../components/Header"

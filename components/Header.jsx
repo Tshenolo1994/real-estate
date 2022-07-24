@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer, Text , Container,  Button} from '@chakra-ui/react';
+import {  Flex, Text ,  Button} from '@chakra-ui/react';
 import {
   Heading,
   Image,
@@ -8,10 +8,6 @@ import {
   useBreakpointValue,
 } 
 from '@chakra-ui/react';
-import { FcMenu, FcHome, FcAbout } from 'react-icons/fc';
-import { BsSearch } from 'react-icons/bs';
-import { FiKey } from 'react-icons/fi';
-import { useRouter } from 'next/router';
 // import SearchFilters from './SearchFilters';
 
 import Property from './Property';

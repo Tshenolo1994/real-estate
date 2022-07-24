@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { Box, Grid, GridItem, Flex, Text, Badge, Button, Show, Hide, SimpleGrid} from '@chakra-ui/react';
+import { Box, Grid, GridItem, Flex, Text, Hide,} from '@chakra-ui/react';
 import {Image} from '@chakra-ui/react'
-import { MdOutlineVerifiedUser } from 'react-icons/md';
 import { VscVerified } from "react-icons/vsc";
 import { BsClock } from "react-icons/bs";
 import { BsCreditCard } from "react-icons/bs";

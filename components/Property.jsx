@@ -1,6 +1,6 @@
 import Link from 'next/link';
 // import Image from 'next/image';
-import { Flex, Box, Text, Button, Image, Avatar } from '@chakra-ui/react';
+import { Flex, Box, Text,Image, Avatar } from '@chakra-ui/react';
 import { FaBed, FaBath } from 'react-icons/fa';
 import { BsGridFill } from 'react-icons/bs';
 import { GoVerified } from 'react-icons/go';
@@ -12,13 +12,13 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
     <Flex flexWrap='wrap' w='420px'  paddingTop='0px'  justifyContent='flex-center' alignItems="center" cursor='pointer'   borderTopLeftRadius='10'
          borderTopRightRadius='10'marginTop="10" marginLeft="10" >
       <Box p="3">
-        {/* <Image 
+        <Image 
         src={coverPhoto ? coverPhoto.url : DefaultImage} 
         width={390} 
         height={280} 
         objectFit="cover"
-         
-         /> */}
+         alt="image"
+         />
       </Box>
       
       <Box w='full'>
