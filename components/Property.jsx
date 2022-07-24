@@ -12,13 +12,13 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
     <Flex flexWrap='wrap' w='420px'  paddingTop='0px'  justifyContent='flex-center' alignItems="center" cursor='pointer'   borderTopLeftRadius='10'
          borderTopRightRadius='10'marginTop="10" marginLeft="10" >
       <Box p="3">
-        <Image 
+        {/* <Image 
         src={coverPhoto ? coverPhoto.url : DefaultImage} 
         width={390} 
         height={280} 
         objectFit="cover"
          
-         />
+         /> */}
       </Box>
       
       <Box w='full'>
