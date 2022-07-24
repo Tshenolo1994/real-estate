@@ -49,7 +49,7 @@ const Home = ({ propertiesForSale, propertiesForRent }) => (
   <Text fontSize={{ base: '30px', md: '40px', lg: '56px' }}   m='20' color="#383A33">Property to rent</Text>
   <Spacer />
     <Flex flexWrap='wrap' justifyContent="center" alignItems="center">
-      {propertiesForRent.map((property) => <Property property={property} key={property.id} />)}
+      {propertiesForRent.map((property) => <Property key={property.id} property={property} />)}
     </Flex>
     <Banner
       purpose='BUY A HOME'
@@ -65,7 +65,7 @@ const Home = ({ propertiesForSale, propertiesForRent }) => (
   <Spacer />
     <Flex flexWrap='wrap' justifyContent="center" alignItems="center">
 
-      {propertiesForSale.map((property) => <Property property={property} key={property.id} />)}
+      {propertiesForSale.map((property) => <Property key={property.id} property={property}/>)}
     </Flex>
   </Box>
 );
